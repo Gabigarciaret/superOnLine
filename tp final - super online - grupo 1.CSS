@@ -1,0 +1,173 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+
+header{
+    padding: 12px !important;
+}
+
+header h1{
+    font-size: 28px;
+    margin: 0;
+}
+
+header p{
+    margin: 0;
+}
+
+
+main{
+    flex: 1;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+.formulario{
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.formulario h2,
+section h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 7px;
+    margin-bottom: 7px !important;
+}
+
+
+
+button{
+    padding: 7px 10px;
+}
+
+
+
+.card-producto{
+    transition: 0.3s;
+}
+
+.card-producto:hover{
+    transform: translateY(-3px);
+}
+
+.card-producto img{
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+}
+
+.card-producto .card-body{
+    padding: 8px;
+}
+
+.card-producto h3{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.card-producto p{
+    margin-bottom: 5px;
+}
+
+
+.precio{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+#lupaCard{
+    position: fixed;
+    width: 420px;
+    background-color: white;
+    border: 4px solid #198754;
+    border-radius: 15px;
+    padding: 20px;
+    display: none;
+    pointer-events: none;
+    z-index: 9999;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.35);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#lupaCard img{
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+}
+
+#lupaCard .precio{
+    font-size: 32px;
+}
+
+
+
+footer{
+    padding: 10px !important;
+    font-size: 13px;
+}
+
+footer p{
+    margin: 0;
+}
+
+
+
+@media (max-width: 768px){
+
+    #lupaCard{
+        display: none !important;
+    }
+
+    header h1{
+        font-size: 24px;
+    }
+
+    .formulario h2,
+    section h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px){
+
+    .card-producto img{
+        height: 100px;
+    }
+
+    .precio{
+        font-size: 18px;
+    }
+
+    button{
+        width: 100%;
+        margin-bottom: 3px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
