@@ -190,3 +190,25 @@ function ocultarLupa(){
         "none";
 }
 
+/*
+-----------------------------------------
+PENDIENTE
+
+La lógica de editar y eliminar productos
+queda pendiente para completar.
+
+Actualmente:
+- agregar productos funciona
+- renderizado dinámico funciona
+- validaciones funcionan
+- imágenes dinámicas funcionan
+- lupa accesible funciona
+
+Faltaría implementar:
+- editarProducto()
+- eliminarProducto()
+
+
+cualquier modificación que creas pertinente es bienvenida!! 
+-----------------------------------------
+*/
