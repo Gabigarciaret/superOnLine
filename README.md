@@ -1,4 +1,4 @@
-# 🛒 Mi Súper Online
+Mi Súper Online
 
 Proyecto realizado con HTML, CSS, JavaScript y Bootstrap.
 
@@ -6,22 +6,24 @@ Permite administrar productos de un supermercado de manera dinámica mediante ca
 
 ---
 
-# 🚀 Funcionalidades
+Funcionalidades
 
-✅ Agregar productos  
-✅ Editar productos  
-✅ Eliminar productos  
-✅ Validaciones de formulario  
-✅ Cards dinámicas  
-✅ Imágenes automáticas desde carpeta local  
-✅ Accesibilidad con lupa para personas con baja visión  
-✅ Diseño responsive  
-✅ Uso de Bootstrap  
-✅ Manipulación del DOM con JavaScript  
+
+- Agregar productos  
+- Editar productos  
+- Eliminar productos  
+- Validaciones de formulario  
+- Cards dinámicas  
+- Imágenes automáticas desde carpeta local  
+- Accesibilidad con lupa para personas con baja visión  
+- Diseño responsive  
+- Uso de Bootstrap  
+- Manipulación del DOM con JavaScript  
+- Modo oscuro con un clic   
 
 ---
 
-# 🧠 Tecnologías utilizadas
+Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -30,9 +32,8 @@ Permite administrar productos de un supermercado de manera dinámica mediante ca
 
 ---
 
-# 📂 Estructura del proyecto
+Estructura del proyecto
 
-```plaintext
 proyecto/
 
 │
