@@ -1,3 +1,33 @@
+/* MODO OSCURO */
+body.dark-mode {
+    background-color: #181818;
+    color: #f1f1f1;
+}
+
+body.dark-mode .formulario,
+body.dark-mode .card,
+body.dark-mode .card-producto,
+body.dark-mode #lupaCard {
+    background-color: #232323 !important;
+    color: #f1f1f1 !important;
+    border-color: #333 !important;
+}
+
+body.dark-mode .btn {
+    background-color: #444 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+body.dark-mode .precio {
+    color: #90ee90 !important;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #222 !important;
+    color: #f1f1f1 !important;
+}
 html, body{
     height: 100%;
     margin: 0;
